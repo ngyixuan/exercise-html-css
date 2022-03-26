@@ -1,23 +1,53 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import HomeView from "../views/HomeView.vue";
+
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "home",
-    component: HomeView,
+    name: "iconfontTest",
+    component: () =>
+    import( "../views/iconfontTest.vue"),
   },
   {
-    path: "/about",
-    name: "about",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+    path: "/scaleTest",
+    name: "iconfontTest",
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
+    import( "../views/scaletest.vue"),
+  },
+  {
+    path: "/gradient",
+    name: "iconfontTest",
+    component: () =>
+    import( "../views/gradientTest.vue"),
+  },
+  {
+    path: "/animation3D",
+    name: "iconfontTest",
+    component: () =>
+    import( "../views/animation3D.vue"),
+  },
+  {
+    path: "/aniamtionKeyframe",
+    component: () =>
+    import( "../views/aniamtionKeyframe.vue"),
+  },
+  {
+    path: "/revolvingLantern",
+    component: () =>
+    import( "../views/revolvingLantern.vue"),
+  },
+  {
+    path: "/alignItem",
+    component: () =>
+    import( "../views/alignItem.vue"),
+  },
+  {
+    path: "/xiaotuxian",
+    component: () =>
+    import( "../views/xiaotuxian.vue"),
   },
 ];
 
