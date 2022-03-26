@@ -49,6 +49,11 @@ const routes = [
     component: () =>
     import( "../views/xiaotuxian.vue"),
   },
+  {
+    path: "/remExercise",
+    component: () =>
+    import( "../views/remExercise.vue"),
+  },
 ];
 
 const router = new VueRouter({
