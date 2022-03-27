@@ -1,0 +1,28 @@
+//out: ../css/
+@color:red;
+@background-color:black;
+
+.box{
+    width: 100 + 10px;
+    width: 100 - 10px;
+    width: 100 * 10px;
+    // width: (100./5px);
+    height: (100 / 4px);
+}
+
+.father{
+    width: 100px;
+    .son{
+        color: pink;
+        //&表示当前选择器
+        //.father .son:hover{}
+        &:hover{
+            color: green;
+        }
+    }
+
+    //.father:hover{}
+    &:hover{
+        color: red;
+    }
+}

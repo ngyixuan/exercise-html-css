@@ -54,6 +54,12 @@ const routes = [
     component: () =>
     import( "../views/remExercise.vue"),
   },
+
+  {
+    path: "/playground",
+    component: () =>
+    import( "../views/playground.vue"),
+  },
 ];
 
 const router = new VueRouter({

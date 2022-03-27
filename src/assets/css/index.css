@@ -1,0 +1,133 @@
+/*  
+base.less
+放入全局的样式
+不需要导出到css文件夹 
+*/
+/* 
+normalize.less
+放入全局的样式
+不需要导出到css文件夹
+ */
+body,
+ul,
+p,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 ;
+  padding: 0;
+}
+body {
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.main {
+  background-color: #f4f4f4;
+  padding-bottom: 1.33333333rem;
+}
+.main .banner {
+  height: 4.26666667rem;
+  background-color: skyblue;
+}
+.main .title {
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  padding-left: 0.4rem;
+}
+.main .title h4 {
+  font-size: 0.37333333rem;
+  color: #3c3c3c;
+}
+.main .item {
+  margin-bottom: 0.26666667rem;
+}
+.main .item .pic {
+  height: 4.26666667rem;
+  position: relative;
+}
+.main .item .pic a {
+  display: block;
+  height: 4.26666667rem;
+  background-color: aquamarine;
+}
+.main .item .pic i {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.48rem;
+  font-size: 0.64rem;
+  color: red;
+}
+.main .item .pic .active {
+  position: absolute;
+  left: 0.4rem;
+  top: -0.10666667rem;
+  width: 1.81333333rem;
+  height: 0.53333333rem;
+  background-color: red;
+  font-size: 0.32rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.53333333rem;
+}
+.main .item .txt {
+  padding: 0.26666667rem 0.4rem;
+  background-color: #fff;
+}
+.main .item .txt .top {
+  display: flex;
+  justify-content: space-between;
+}
+.main .item .txt .top h5 {
+  width: 7.73333333rem;
+  font-size: 0.4rem;
+  color: #3c3c3c;
+  font-weight: 400;
+}
+.main .item .txt .top p {
+  font-size: 0.4rem;
+  color: #fe6249;
+}
+.main .item .txt .bottom {
+  display: flex;
+  margin-top: 0.26666667rem;
+}
+.main .item .txt .bottom p {
+  margin-right: 0.4rem;
+  font-size: 0.29333333rem;
+  color: #848484;
+}
+.main .item .txt .bottom p i {
+  font-size: 0.29333333rem;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 1.33333333rem;
+  background-color: #feca49;
+  text-align: center;
+}
+footer a {
+  font-size: 0.29333333rem;
+  color: #d78b09;
+}
+footer a .iconfont {
+  font-size: 0.64rem;
+}
+footer a.current {
+  color: #fff;
+}
