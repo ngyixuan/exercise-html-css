@@ -60,6 +60,18 @@ const routes = [
     component: () =>
     import( "../views/playground.vue"),
   },
+
+  {
+    path: "/vw+vh",
+    component: () =>
+    import( "../views/vw+vh.vue"),
+  },
+  
+  {
+    path: "/bilibili",
+    component: () =>
+    import( "../views/bilibili.vue"),
+  },
 ];
 
 const router = new VueRouter({
