@@ -1,24 +1,3 @@
-# iconfont-test
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. 小兔鲜商城(xiaotuxian.vue) - flex布局基础巩固 （justify-content, align-items, flex-direction, 控制句子长度省略号表示）
+2. 游乐园项目(playground.vue) - less基础巩固 （变量，嵌套，运算，导入，flexible.js）
+3. 其他：动画小练习 （transform, translate, rotate, scale, animation, perspective）
