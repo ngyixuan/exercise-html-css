@@ -7,25 +7,25 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
-    name: "iconfontTest",
+
     component: () =>
     import( "../views/iconfontTest.vue"),
   },
   {
     path: "/scaleTest",
-    name: "iconfontTest",
+
     component: () =>
     import( "../views/scaletest.vue"),
   },
   {
     path: "/gradient",
-    name: "iconfontTest",
+
     component: () =>
     import( "../views/gradientTest.vue"),
   },
   {
     path: "/animation3D",
-    name: "iconfontTest",
+
     component: () =>
     import( "../views/animation3D.vue"),
   },
@@ -71,6 +71,16 @@ const routes = [
     path: "/bilibili",
     component: () =>
     import( "../views/bilibili.vue"),
+  },
+  {
+    path: "/mediaQuery",
+    component: () =>
+    import( "../views/mediaQuery.vue"),
+  },
+  {
+    path: "/bootstrapFirstTry",
+    component: () =>
+    import( "../views/bootstrapFirstTry.vue"),
   },
 ];
 
